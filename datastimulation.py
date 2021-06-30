@@ -43,7 +43,7 @@ myclient= pymongo.MongoClient("mongodb://127.0.0.1:27017/")
 mydb=myclient["task"]
 mycol=mydb["ins1"]
 window=Tk()
-window.title("FIDROX")
+window.title("Give any name")
 client = MongoClient('mongodb://localhost:27017/')
 
 
@@ -151,7 +151,7 @@ def de():
    
    
 
-
+#label name
 label1=Label(window,text="Insert/Delete ",relief="sunken",width=20,bg ='light slate blue', fg='#000000', bd=0,font=("arial 15 bold"))
 label1.place(x=150,y=50)
 
